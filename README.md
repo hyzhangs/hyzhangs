@@ -8,7 +8,7 @@
 hyzhangs/hyzhangs is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-使用shadowsocks科学上网
+- 使用shadowsocks科学上网
 刚刚，有司又对VPN下手了。墙越来越高了。
 
 7月1日，中国加大力度打击 VPN
