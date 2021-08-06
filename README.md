@@ -1,14 +1,4 @@
-- 👋 Hi, I’m @hyzhangs
-- 👀 欢迎来到我的主业.
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-hyzhangs/hyzhangs is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-- 使用shadowsocks科学上网
+# 使用shadowsocks科学上网
 刚刚，有司又对VPN下手了。墙越来越高了。
 
 7月1日，中国加大力度打击 VPN
@@ -26,22 +16,22 @@ shadowsocks客户端启动后会在本地开启一个代理，可以理解为一
 
 通过shadowsocks翻墙上网的过程是这样的：
 
-1、用户发起一个网络访问请求，比如用浏览器访问google.com，请求被发送到本地代理。
+- 用户发起一个网络访问请求，比如用浏览器访问google.com，请求被发送到本地代理。
 
-2、客户端从本地代理拿到请求数据，然后发送至墙外的shadowsocks服务端。
+- 客户端从本地代理拿到请求数据，然后发送至墙外的shadowsocks服务端。
 
-3、服务端向google.com发起请求，然后收到google的响应数据，也就是google首页的数据。
+- 服务端向google.com发起请求，然后收到google的响应数据，也就是google首页的数据。
 
-4、服务端把响应数据发回客户端。
+- 服务端把响应数据发回客户端。
 
-5、客户端再通过本地代理把响应数据交给浏览器，google首页就显示出来了。
+- 客户端再通过本地代理把响应数据交给浏览器，google首页就显示出来了。
 
 整个过程中的第2步和第4步都是通过shadowsocks自定义的协议隐蔽地进行，很难被过滤，所以我们才能一直用它顺畅地翻墙。
 
 我不想听原理，我只想马上翻墙
 简单地说，用shadowsocks翻墙，你需要一个客户端和一个服务端。
 
-客户端
+# 客户端
 Windows、macOS、Android平台都有官方提供的免费客户端可用，下载地址如下：
 
 Windows
@@ -54,7 +44,7 @@ iOS平台有一些收费的App支持shadowsocks, 比如
 
 shadowrocket
 
-服务端
+# 服务端
 市面上有一些shadowsocks服务可供购买，比如
 
 https://www.shadowsocks.com.hk/
